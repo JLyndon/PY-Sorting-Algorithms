@@ -1,4 +1,4 @@
-# -------------------- INSERTION SORT --------------------------
+# -------------------- MERGE SORT --------------------------
 # Code snippet from geeksforgeeks.org
 
 def merge(arr, l, m, r):
