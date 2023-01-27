@@ -22,4 +22,14 @@ def partition(array, low, high):
     # Return the position from where partition is done
     return i + 1
  
-
+# Function to perform Quick Sort
+def quickSort(array, low, high):
+    if low < high:
+ 
+        # Find pivot element such that
+        # element smaller than pivot are on the left
+        # element greater than pivot are on the right
+        pi = partition(array, low, high)
+ 
+        quickSort(array, low, pi - 1)  # Recursive >>> Left
+        quickSort(array, pi + 1, high) # Recursive >>> Right
