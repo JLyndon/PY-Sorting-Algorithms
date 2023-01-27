@@ -46,9 +46,12 @@ def mergeSort(arr, l, r):
         merge(arr, l, m, r)
 
 data = [93, 57, 76, 21, 95, 69, 51, 74, 38, 63]
+n = len(data)
 
 print("\n\u001b[36mUnsorted Array\u001b[0m")
 print(data)
 
 print("\n\u001b[32mSorted Array\u001b[0m in Ascending Order:")
-print(mergeSort(data), "\n")
+
+mergeSort(data, 0, n - 1)
+print(data, "\n")
