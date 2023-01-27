@@ -1,3 +1,6 @@
+# -------------------- SELECTION SORT --------------------------
+# Code snippet from guru99.com
+
 def selectionSort(itemsList):
     n = len(itemsList)
     for i in range(n - 1): 
@@ -13,7 +16,6 @@ def selectionSort(itemsList):
             itemsList[minValueIndex] = temp
 
     return itemsList
-
 
 data = [93, 57, 76, 21, 95, 69, 51, 74, 38, 63]
 
