@@ -19,3 +19,8 @@ def bubbleSort(pdata):
 
 data = [93, 57, 76, 21, 95, 69, 51, 74, 38, 63]
 
+print("\n\u001b[36mUnsorted Array\u001b[0m")
+print(data)
+
+print("\n\u001b[32mSorted Array\u001b[0m in Ascending Order:")
+print(bubbleSort(data), "\n")
