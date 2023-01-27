@@ -33,3 +33,14 @@ def quickSort(array, low, high):
  
         quickSort(array, low, pi - 1)  # Recursive >>> Left
         quickSort(array, pi + 1, high) # Recursive >>> Right
+
+data = [93, 57, 76, 21, 95, 69, 51, 74, 38, 63]
+n = len(data)
+
+print("\n\u001b[36mUnsorted Array\u001b[0m")
+print(data)
+
+print("\n\u001b[32mSorted Array\u001b[0m in Ascending Order:")
+
+quickSort(data, 0, n - 1)
+print(data, "\n")
